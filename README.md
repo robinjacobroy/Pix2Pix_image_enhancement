@@ -1,0 +1,1 @@
+This repository contains the code for image enhancement using the Pix2Pix GAN network. The code aims to correct exposure differences and remove shadows from images. First, a random synthetic noise profile is generated using NumPy and then linearly blended with images of textbook pages. Using this training data, a Pix2Pix generator is trained, which is capable of enhancing images.
